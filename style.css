@@ -159,6 +159,16 @@ article {
     align-items: center;
 }
 
-.article-itens > * + * {
-    
+/* Serviços */
+
+.services {
+    padding-top: 90px;
+    background: linear-gradient(to bottom, var(--cinzaescuro) 80%, white 30%);
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
