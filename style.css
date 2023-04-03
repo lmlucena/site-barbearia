@@ -16,7 +16,8 @@
     --branco: white;
     --cinzaescuro: #322C34;
     --cinzaclaro: #5E5361;
-    --cinzatexto: #838383;
+    --cinzatexto1: #838383;
+    --cinzatexto2: #E6E6E6;
 }
 
 header {
@@ -136,7 +137,7 @@ main {
 
 .about-content p {
     font-weight: 300;
-    color: var(--cinzatexto);
+    color: var(--cinzatexto1);
 }
 
 /* Testimony */
@@ -171,4 +172,92 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabelo1, .barba1, .cabelo2, .barba2 {
+    display: flex;
+    width: 198px;
+    height: 391px;
+    text-align: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--cinzatexto2);
+    margin: 50px;
+}
+
+/* Princes */
+
+.background-prices {
+    background-color: #231F21;
+    width: 1239px;
+    height: 615px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.prices-list {
+    border: 3px solid var(--laranja);
+    width: 1174px;
+    height: 554px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.prices-list > div > ul > li {
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.prices-list > div > ul > li {
+    list-style-type: none;
+    position: relative;
+    padding-right: 60px;
+  }
+
+  .prices-list > div > ul > li::after {
+    content: "";
+    position: absolute;
+    right: 80px;
+    top: 60%;
+    width: 55%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: var(--cinzaescuro);
+    transform: translateY(-50%);
+}
+
+.prices-list > div > ul > li::before {
+    content: "R$ 40";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: var(--laranja);
+  }
+
+.classicos {
+    padding: 30px;
+    width: 570px;
+}
+
+.ajustes {
+    padding: 30px;
+    width: 570px;
 }
