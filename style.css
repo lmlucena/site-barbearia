@@ -39,13 +39,18 @@ header {
     margin-right: auto;
 }
 
+.header > ul > li > svg {
+    margin-top: 10px;
+}
 .header-contats {
     list-style: none;
     display: flex;
 }
-
+.header-contats > li > svg {
+    
+}
 .header-contats li {
-    padding: 0px 20px;
+    padding-right: 30px;
 }
 .header-contats li svg {
     
@@ -351,3 +356,6 @@ article {
     font-size: 36px;
     height: 80px;
 }
+
+/* Barbers */
+
