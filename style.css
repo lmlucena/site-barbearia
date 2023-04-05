@@ -81,15 +81,49 @@ main {
     font-weight: 300;
 }
 
-.main-content button {
-    width: 229px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: var(--laranja);
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
+
+button {
+ appearance: none;
+ background-color: transparent;
+ border: 0.125em solid #FEA943;
+ border-radius: 0.9375em;
+ box-sizing: border-box;
+ color: #ffffff;
+ cursor: pointer;
+ display: inline-block;
+ font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+ font-size: 16px;
+ font-weight: 600;
+ line-height: normal;
+ margin: 0;
+ min-height: 3.75em;
+ min-width: 0;
+ outline: none;
+ padding: 1em 2.3em;
+ text-align: center;
+ text-decoration: none;
+ transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ will-change: transform;
+ text-transform: uppercase;
+}
+
+button:disabled {
+ pointer-events: none;
+}
+
+button:hover {
+ color: #fff;
+ background-color: #FEA943;
+ box-shadow: rgba(236, 194, 5, 0.25) 0 8px 15px;
+ transform: translateY(-2px);
+}
+
+button:active {
+ box-shadow: none;
+ transform: translateY(0);
 }
 
 /* About */
@@ -165,6 +199,7 @@ article {
 .services {
     padding-top: 90px;
     background: linear-gradient(to bottom, var(--cinzaescuro) 80%, white 30%);
+    margin-bottom: 90px;
 }
 
 .titulos {
@@ -260,4 +295,59 @@ article {
 .ajustes {
     padding: 30px;
     width: 570px;
+}
+
+/* Photos */
+
+.photos {
+    margin-bottom: 90px;    
+}
+
+.photos-photos {
+    display: flex;
+}
+
+.photos-box {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos-box > h4 {
+    margin-top: 36px;
+    font-size: 26px;
+    color: var(--laranja);
+}
+
+.photos-box > p {
+    width: 371px;
+    margin-top: 15px;
+    text-align: center;
+    color: var(--cinzaescuro);
+    font-weight: bold;
+}
+
+.imagem-photos {
+    position: relative;
+}
+
+/* Schedule */
+
+.schedule {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/imagemtestimony.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 348px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.schedule > p {
+    color: white;
+    font-size: 36px;
+    height: 80px;
 }
