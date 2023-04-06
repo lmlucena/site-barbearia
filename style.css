@@ -349,6 +349,7 @@ article {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .schedule > p {
@@ -358,4 +359,41 @@ article {
 }
 
 /* Barbers */
+
+.barbers {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background-color: var(--cinzaescuro);
+}
+
+.barbers p {
+    width: 770px;
+    text-align: center;
+    font-weight: 700;
+    margin: 21px 0 60px 0;
+    color: var(--cinzatexto2);
+}
+
+.imagem-barbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    font-size: 26px;
+    color: var(--laranja);
+}
+
+.barbers-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.barbers-box h4 {
+    margin-top: 30px;
+}
+
+.img-barbers {
+    position: relative;
+}
 
