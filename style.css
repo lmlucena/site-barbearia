@@ -419,6 +419,11 @@ article {
     font-weight: bold;
 }
 
+.form-col > label {
+    display: flex;
+    gap: 10px;
+}
+
 .form-col:nth-child(2) {
     flex: 1 1 4%;
 }
