@@ -416,6 +416,7 @@ article {
 .form-col {
     flex: 1;
     padding: 10px;
+    font-weight: bold;
 }
 
 .form-col:nth-child(2) {
@@ -480,6 +481,11 @@ select {
     justify-content: center;
     position: relative;
     border: 5px solid var(--laranja);
+}
+
+.contact-frame1 > span {
+    display: flex;
+    gap: 10px;
 }
 
 .contact-frame2{
