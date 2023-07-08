@@ -551,3 +551,37 @@ small {
     justify-content: center;
     align-items: center;
 }
+
+/* RESPONSIVIDADE */
+/* Celulares*/
+
+@media(max-width: 450px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+    .main-content > p {
+        font-size: 0.8em;
+        width: 350px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    #hero-foto {
+        display: none;
+    }
+
+    .produtos {
+        overflow-x: scroll;
+        font-size: 0.8em;
+    }
