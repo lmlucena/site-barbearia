@@ -574,7 +574,8 @@ small {
         align-items: center;
         margin: auto;
         text-align: center;
-        font-size: 1.1em;
+        font-size: 0.9em;
+        width: 350px;
     }
 
     #hero-foto {
