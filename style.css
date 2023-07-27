@@ -586,3 +586,15 @@ small {
         overflow-x: scroll;
         font-size: 0.8em;
     }
+
+    .background-prices, .prices-list {
+        width: 450px;
+
+    }
+
+    .ajustes, .classicos > ul > li {
+      
+        font-size: 12px;        
+
+    }
+}
