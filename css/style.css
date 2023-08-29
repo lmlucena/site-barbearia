@@ -56,7 +56,7 @@ header {
 }
 
 main {
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.055), rgba(247, 247, 247, 0.014)), url('imagens/imagemheader.png');
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.055), rgba(247, 247, 247, 0.014)), url('/imagens/imagemheader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -181,7 +181,7 @@ button:active {
 /* Testimony */
 
 article { 
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/imagemtestimony.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../imagens/imagemtestimony.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -339,7 +339,7 @@ article {
 /* Schedule */
 
 .schedule {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imagens/imagemtestimony.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../imagens/imagemtestimony.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -552,49 +552,3 @@ small {
     align-items: center;
 }
 
-/* RESPONSIVIDADE */
-/* Celulares*/
-
-@media(max-width: 450px) {
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        align-items: center;
-    }
-
-    .main-content > p {
-        font-size: 0.8em;
-        width: 350px;
-    }
-
-    .about-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        text-align: center;
-        font-size: 0.9em;
-        width: 350px;
-    }
-
-    #hero-foto {
-        display: none;
-    }
-
-    .produtos {
-        overflow-x: scroll;
-        font-size: 0.8em;
-    }
-
-    .background-prices, .prices-list {
-        width: 450px;
-
-    }
-
-    .ajustes, .classicos > ul > li {
-      
-        font-size: 12px;        
-
-    }
-}
