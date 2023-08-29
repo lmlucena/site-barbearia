@@ -1,0 +1,10 @@
+/* Header */
+
+
+
+/* Main */
+#main-text{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}

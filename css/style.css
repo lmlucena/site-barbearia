@@ -56,24 +56,23 @@ header {
 }
 
 main {
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.055), rgba(247, 247, 247, 0.014)), url('/imagens/imagemheader.png');
+    
+}
+
+.main-text {
+   background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.055), rgba(247, 247, 247, 0.014)), url('/imagens/imagemheader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
-}
-
-.main-text {
-    position: absolute;
-    width: 1170px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content {
-    width: 505px;
+    padding-right: 45%;
 }
 
 .main-content > * + * {
@@ -81,8 +80,9 @@ main {
 }
 
 .main-content p {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 1rem;
+    width: 505px;
+    
 }
 
 
