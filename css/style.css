@@ -60,7 +60,7 @@ main {
 }
 
 .main-text {
-   background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.055), rgba(247, 247, 247, 0.014)), url('/imagens/imagemheader.png');
+   background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.055), rgba(247, 247, 247, 0.014)), url('../imagens/imagemheader.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
